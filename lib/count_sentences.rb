@@ -4,7 +4,7 @@ class String
 
   def sentence?
 puts self
-    if "Hi.".end_with(".")
+    if end_with(".")
       true
     else
       false
